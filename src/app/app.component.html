@@ -16,7 +16,7 @@
             [srvElement] = "serverElement"
             [name] = "serverElement.name"
         >
-          <p>
+          <p #contentParagragh>
             <strong *ngIf = "serverElement.type=== 'server'" style>{{ serverElement.content }}</strong>
             <em *ngIf = "serverElement.type === 'blueprint'">{{ serverElement.content }}</em>
           </p>
